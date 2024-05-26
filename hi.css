@@ -1,0 +1,454 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
+
+
+
+* {
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: .2s linear;
+}
+
+
+
+body {
+    background-color: #dde2ec63;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 8rem;
+}
+
+::-webkit-scrollbar {
+    height: .5rem;
+    width: 1rem;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--yellow);
+    border-radius: 5rem;
+}
+
+section {
+    margin-right: 5rem;
+    padding-top: 2rem;
+}
+
+
+.header {
+
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+
+    background-color: #dde2ec1b;
+
+}
+
+.header .flex {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+
+.header .flex .navbar a {
+    font-size: 1.8rem;
+    margin: 0 .8rem;
+
+    font-family: Inter, sans-serif;
+    color: #000;
+    font-weight: 500;
+
+
+}
+
+.navbar {
+    margin-top: 1rem;
+}
+
+.logo {
+    flex: 50px;
+}
+
+.header .flex .navbar a:hover {
+    border-bottom: 1px dotted #646b80;
+}
+
+
+#menu-btn {
+    display: none;
+    cursor: pointer;
+    font-size: 2.3rem;
+}
+
+.box {
+    height: 600px;
+    width: 100%;
+    background: url(backgroung.svg) #dde2ec1b;
+
+}
+
+.lol>h1 {
+    font-size: 9rem;
+    line-height: 8.6rem;
+}
+
+.lol {
+    font-size: 2rem;
+}
+
+.lol {
+    width: 50%;
+}
+
+.lol h1 span {
+    color: #8a3ffc;
+}
+
+.lol p {
+    color: #646b80;
+    line-height: 3rem;
+}
+
+.lol a {
+    background-color: #000;
+    color: white;
+    font-size: 1.5rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    font-weight: 6rem;
+}
+
+.lol {
+    margin: 10rem;
+    padding-top: 7rem;
+}
+
+.lils {
+    display: flex;
+    width: 30%;
+    height: max-content;
+    border-radius: 2rem;
+    background-color: white;
+    font-size: 1.5rem;
+    align-items: center;
+    padding: 3rem 1rem;
+    box-shadow: #646b80;
+}
+
+.lils .pps {
+    margin-left: 2rem;
+}
+
+.lils p {
+    color: #646b80;
+}
+
+.lils h2 {
+    margin-bottom: .5rem;
+}
+
+.group {
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.normal {
+    margin: 0rem 10rem;
+}
+
+.normal h1 {
+    font-size: 3.5rem;
+}
+
+.define {
+    margin: 10rem 15rem;
+    text-align: center;
+}
+
+.define h1 {
+    font-size: 4rem;
+}
+
+.define p {
+    font-size: 2.2rem;
+    color: #646b80;
+
+}
+
+.cape {
+    background-color: white;
+    width: 80%;
+    height: max-content;
+    display: flex;
+    border-radius: 20px;
+    padding: 5rem;
+    margin: auto;
+    margin-bottom: 5rem;
+}
+
+.bet h1 {
+    display: inline;
+    font-size: 3.7rem;
+}
+
+.bet p {
+    font-size: 1.6rem;
+    color: #646b80;
+    line-height: 28px;
+    padding-bottom: 2rem;
+    font-family: Inter, sans-serif;
+}
+.bet span{
+    color: #646b80;
+    font-size: 1.7rem;
+    position: relative;
+    top: -0.6rem;
+}
+.bet img {
+    display: block;
+}
+
+.bet {
+    width: 60%;
+}
+
+.bet a {
+    background-color: #f0b90b;
+    font-size: 1.8rem;
+    padding: 2rem 4rem;
+    border-radius: 1rem;
+    color: black;
+
+
+}
+
+.picin {
+    width: 40%;
+
+}
+
+.picin img {
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1200px) {
+
+    html {
+        font-size: 55%;
+    }
+
+    .lol {
+        width: 80%;
+    }
+    .picin  {
+        display: none;
+    }
+    .bet{
+        width: 100%;
+    }
+
+
+}
+
+@media (max-width:991px) {
+
+    html {
+        font-size: 55%;
+    }
+
+    header {
+        padding: 2rem 1rem;
+
+    }
+
+    .lils {
+        flex-wrap: wrap;
+        padding: 2rem 0;
+        height: 16rem;
+    }
+
+    .heart {
+        width: 100%;
+        text-align: center;
+    }
+
+    section {
+        padding: 2rem;
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+    }
+
+    .lol {
+        width: 80%;
+    }
+
+    .normal {
+        margin: 0rem 5rem;
+    }
+
+    #menu-btn {
+        padding-top: 1rem;
+        margin-left: 3rem;
+    }
+
+    .define {
+        margin: 10rem 5rem;
+    }
+
+    #menu-btn {
+        display: block;
+    }
+    #menu-btn {
+        display: none;
+    }
+}
+
+@media (max-width:768px) {
+
+    #menu-btn {
+        display: inline-block;
+    }
+
+    .header .flex .navbar {
+        position: absolute;
+        top: 99%;
+        left: 0;
+        right: 0;
+        background: #12141d;
+        padding: 1rem;
+        border-radius: 0 0rem 2rem 2rem;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        margin: 0px;
+        width: 110%;
+    }
+
+    .header .flex .navbar.active {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+
+    .header .flex .navbar a {
+        display: block;
+        border-radius: .5rem;
+        padding: 1.2rem;
+        background: #12141d;
+        color: white;
+    }
+
+    .lol>h1 {
+        font-size: 7rem;
+        line-height: 8.6rem;
+    }
+
+    .lol {
+        margin: 4rem;
+        padding-top: 5rem;
+    }
+
+    .lils {
+        height: 24rem;
+    }
+
+}
+
+@media (max-width:450px) {
+
+    html {
+        font-size: 50%;
+    }
+
+    #menu-btn {
+        display: inline-block;
+    }
+
+    .group {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .lils {
+
+        padding: 2rem 0;
+        width: 100%;
+        margin-bottom: 2rem;
+        height: max-content;
+    }
+
+    .heart {
+        width: max-content;
+        margin-left: .5rem;
+    }
+
+    .define {
+        margin: 10rem 3rem;
+    }
+
+    .define h1 {
+        font-size: 3rem;
+    }
+
+
+
+
+}
